@@ -31,7 +31,7 @@
 
 | 主页 | 设置页 |
 |:---:|:---:|
-| ![主页](screenshots/screenshot-1.jpg) | ![设置页](screenshots/screenshot-2.jpg) |
+| ![主页](resources/screenshot-1.jpg) | ![设置页](resources/screenshot-2.jpg) |
 
 ## 📋 系统要求
 
