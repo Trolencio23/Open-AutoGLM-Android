@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Open-AutoGLM</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">主页</string>
+    <string name="nav_settings">设置</string>
+    
+    <!-- Home Screen -->
+    <string name="task_input_hint">输入任务，例如：打开微信搜索附近美食</string>
+    <string name="btn_start">开始执行</string>
+    <string name="btn_stop">停止</string>
+    <string name="execution_log">执行日志</string>
+    <string name="step_count">步骤 %1$d / %2$d</string>
+    <string name="thinking">思考中...</string>
+    <string name="executing">执行中...</string>
+    <string name="task_completed">任务完成</string>
+    <string name="task_failed">任务失败</string>
+    <string name="max_steps_reached">已达最大步数</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_api">API 配置</string>
+    <string name="settings_api_url">API 地址</string>
+    <string name="settings_api_url_hint">https://open.bigmodel.cn/api/paas/v4</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_hint">输入你的 API Key</string>
+    <string name="settings_model">模型名称</string>
+    <string name="settings_model_hint">autoglm-phone</string>
+    <string name="settings_agent">Agent 配置</string>
+    <string name="settings_max_steps">最大步数</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_language_cn">中文</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_save">保存</string>
+    <string name="settings_saved">设置已保存</string>
+    
+    <!-- Shizuku -->
+    <string name="shizuku_title">Shizuku 权限</string>
+    <string name="shizuku_description">Open-AutoGLM 需要 Shizuku 来执行设备控制操作</string>
+    <string name="shizuku_not_running">Shizuku 未运行</string>
+    <string name="shizuku_running">Shizuku 运行中</string>
+    <string name="shizuku_permission_granted">权限已授予</string>
+    <string name="shizuku_permission_denied">权限未授予</string>
+    <string name="shizuku_request_permission">请求权限</string>
+    <string name="shizuku_open_app">打开 Shizuku</string>
+    <string name="shizuku_install">安装 Shizuku</string>
+    
+    <!-- Confirmation Dialog -->
+    <string name="confirm_title">确认操作</string>
+    <string name="confirm_sensitive">这是一个敏感操作，是否继续？</string>
+    <string name="confirm_yes">确认</string>
+    <string name="confirm_no">取消</string>
+    
+    <!-- Takeover Dialog -->
+    <string name="takeover_title">需要人工操作</string>
+    <string name="takeover_continue">完成后继续</string>
+    
+    <!-- Notification -->
+    <string name="notification_channel_name">Agent 运行状态</string>
+    <string name="notification_channel_description">显示 Agent 任务执行状态</string>
+    <string name="notification_title">正在执行任务</string>
+    <string name="notification_stop">停止</string>
+    
+    <!-- Errors -->
+    <string name="error_shizuku_required">请先启用 Shizuku</string>
+    <string name="error_api_not_configured">请先配置 API</string>
+    <string name="error_task_empty">请输入任务</string>
+    <string name="error_network">网络错误</string>
+    <string name="error_model">模型错误</string>
+</resources>
